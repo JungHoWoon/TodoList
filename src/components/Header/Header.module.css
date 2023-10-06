@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg-main);
+}
+
+.filters {
+  display: flex;
+}
+
+.filter {
+  font-size: 17px;
+  margin: 5px;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: var(--color-accent);
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.filter:hover,
+.filter.selected {
+  opacity: 1;
+  color: var(--color-black);
+}
