@@ -60,3 +60,16 @@ button {
   outline: none;
   border: none;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-bg-main);
+  border-radius: 50px;
+}

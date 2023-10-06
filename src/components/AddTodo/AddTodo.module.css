@@ -1,0 +1,40 @@
+.form {
+  width: 100%;
+  padding: 15px 8px;
+
+  display: flex;
+
+  background-color: var(--color-bg-main);
+}
+
+.input {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+
+  font-size: 13px;
+  padding: 5px 3px;
+
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.button {
+  width: 60px;
+  padding: 5px;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  background-color: var(--color-accent);
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
