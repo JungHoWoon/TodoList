@@ -1,0 +1,6 @@
+.day {
+  color: var(--color-black);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
